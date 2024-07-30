@@ -1,0 +1,8 @@
+name, email, phone, company, role, use_case_details
+bri, briangdrewes@gmail.com, 5164049751, chewy, Engineering, send calls to customers
+bri, briangdrewes@gmail.com, 5164049751, chewy, Engineering, send calls to customers
+bri, briangdrewes@gmail.com, 5164049751, chewy, Engineering, send calls to custox
+bri, briangdrewes@gmail.com, 5164049751, chewy, Engineering, scscs
+bri, briangdrewes@gmail.com, 5164049751, chewy, Engineering, scscs
+Brian Drewes, briangdrewes@gmail.com, (516) 404-9751, Carrier, Sales, looking to implement a HVAC voice agent that qualifies customers based on their initial interest on submitting "I'm interested" on HVAC systems
+Brian Drewes, briangdrewes@gmail.com, (516) 404-9751, Carrier, Sales, looking to implement a HVAC voice agent that qualifies customers based on their initial interest on submitting "I'm interested" on HVAC systems
