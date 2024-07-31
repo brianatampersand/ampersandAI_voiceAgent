@@ -2,8 +2,16 @@ name, email, phone, company, role, use_case_details
 bri, briangdrewes@gmail.com, 5164049751, chewy, Engineering, send calls to customers
 bri, briangdrewes@gmail.com, 5164049751, chewy, Engineering, send calls to customers
 bri, briangdrewes@gmail.com, 5164049751, chewy, Engineering, send calls to custox
+Dbri, briangdrewes@gmail.com, 5164049751, chewy, Engineering, scscs
 bri, briangdrewes@gmail.com, 5164049751, chewy, Engineering, scscs
-bri, briangdrewes@gmail.com, 5164049751, chewy, Engineering, scscs
 Brian Drewes, briangdrewes@gmail.com, (516) 404-9751, Carrier, Sales, looking to implement a HVAC voice agent that qualifies customers based on their initial interest on submitting "I'm interested" on HVAC systems
 Brian Drewes, briangdrewes@gmail.com, (516) 404-9751, Carrier, Sales, looking to implement a HVAC voice agent that qualifies customers based on their initial interest on submitting "I'm interested" on HVAC systems
 Brian Drewes, briangdrewes@gmail.com, (516) 404-9751, Carrier, Sales, looking to implement a HVAC voice agent that qualifies customers based on their initial interest on submitting "I'm interested" on HVAC systems
+Brian Drewes, briangdrewes@gmail.com, (516) 404-9751, Carrier, Sales, looking to implement a HVAC voice agent that qualifies customers based on their initial interest on submitting "I'm interested" on HVAC systems
+Brian Drewes, briangdrewes@gmail.com, (516) 404-9751, Carrier, Sales, looking to implement a HVAC voice agent that qualifies customers based on their initial interest on submitting "I'm interested" on HVAC systems
+Arty Foles, briangdrewes@gmail.com, (516) 404-9751, Chewy, Marketing, looking to use voice agents for power users on product feedback following a promotion gift
+Bart Simpson, briangdrewes@gmail.com, (516) 404-9751, Bank of America, Marketing, Want to reach virtually call customers to qualify for loans
+Bart Simpson, briangdrewes@gmail.com, (516) 404-9751, Bank of America, Marketing, Want to reach virtually call customers to qualify for loans
+Bart Simpson, briangdrewes@gmail.com, (516) 404-9751, Bank of America, Marketing, Want to reach virtually call customers to qualify for loans
+Elon Musk, briangdrewes@gmail.com, 5164049751, Tesla, CEO, looking to use your services to sell my cars
+

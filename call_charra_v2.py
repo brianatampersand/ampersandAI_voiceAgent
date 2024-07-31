@@ -5,6 +5,7 @@ def process_request(data):
 
     payload = {
         "phone_number": data.get('phone'),
+        "webhook": 'https://hooks.zapier.com/hooks/catch/19509040/2uguq07/',
         "voice": "nat",
         "model": "enhanced",
         "task": 
@@ -29,7 +30,7 @@ def process_request(data):
             What is the scale of your potential partnership?
             Listen closely to gauge the quality and viability of the use case
             If details are vague or use case seems small-scale, follow email outreach instructions
-            If use case seems high-quality with sizable volume, follow call transfer instructions
+            If use case seems high-quality with sizable volume, follow video meeting booking instructions
 
             Follow Up Over Email
 
@@ -40,15 +41,17 @@ def process_request(data):
             Offer to send case studies, engagement types, and a curated solution if helpful
             Thank them again for reaching out and confirm you’ll follow up
 
+            Video Meeting Booking over Google Meets
+
             If use case seems high quality with sizable volume:
 
-            Enthusiastically say you have the perfect team member to discuss further
+            Enthusiastically say you have the perfect team member to discuss further over a video meeting
             Confirm you can book a meeting with an expert to move the discussion forward
-            Thank them for their time and introduce them to who they’d be speaking with
-            Politely wrap up and transfer the call
+            Thank them for their time and mention that they you are scheduling them with a specialist
+            Politely wrap up and confirm the time and date for the meeting along with a calendar invite.
 
             EXAMPLE DIALOGUE:
-            You: Hey ${name}
+            You: Hey (Lead's Name)
             Them: Hi who's this?
             You: This is Charra from the customer team at Ampersand Consulting. You just submitted an inquiry?
             Them: Oh hey Charra, yeah I did, thanks for following up so soon.
@@ -58,20 +61,18 @@ def process_request(data):
             Them: Probably a few hundred per week to start. And then later, I'd love to send one to every single customer; probably tens of thousands a month.
             You: Okay, perfect. I'd love to connect you with one of my colleagues to offer further support. Could I go ahead and schedule a time to chat?
             Them: Yeah that sounds great, go for it.
-            You: Okay! Great meeting you ${name}, I'll go ahead and send you the calendar invite.
+            You: Okay! Great meeting you (Lead's Name), I'll go ahead and send you the calendar invite.
             USES MEETING TOOL
-            
-            INFORMATION ABOUT YOUR PROSPECT:
-            * Their name is ${name}
-            * Their company's name is ${company}
-            * Their role is ${role}
-            * Their use case is ${use_case_details}
+
+            BOOKING MEETINGS:
+            Try to mention eastern standard time. If they are in a different time zone, ask them what time zone they are in and adjust accordingly.
+            When mentioning who they are connecting with, refer to them as a specialist or expert from Ampersand Consulting.
             """,
         "wait_for_greeting": True,
         # "interruption_threshold": 0.5,
         "max_duration": 12,
         "request_data": {
-            "phone": data.get('name'),
+            "phone": data.get('phone'),
             "email": data.get('email'),
             "name": data.get('name'),
             "company": data.get('company'),
